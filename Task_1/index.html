@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+	<title>Basic HTML Epam</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Stepan Tuchin">
+</head> 
+<body>
+	<table border="1" cellspacing="0" cellpadding="5" width = "100%" >
+		<tbody> 
+			<tr> 
+				<td colspan="3" height = "100" align="center" ><h1><font color="blue">Макет задания по "Основы HTML"</font></h1>
+				</td>
+			</tr>
+			<tr>
+				<td valign="top"  width="200">
+					<h2><font color="blue">Меню</font></h2>
+					<ul type="none" >
+						<li><a href="">Главная</a></li>
+						<li><a href="">Продукты</a></li>
+						<li><a href="">Кафе</a></li>
+						<li><a href="">Рестораны</a></li>
+						<li><a href="">Вопросы</a></li>
+						<li><a href="">Акции</a></li>
+					</ul>
+				</td>
+				<td valign="top">
+					<h2 align="center"><font color="blue">Основной контент</font></h2>
+					<p>
+						<img align="right" width="100" src="https://muzei-mira.com/templates/museum/images/paint/bogatyri-vasnecov+.jpg" alt="three heroes">
+						&nbsp;&nbsp;&nbsp;&nbsp;Давно выяснено, что при
+						оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что
+						тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и
+						пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст..
+						Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в
+						качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает, как много
+						веб-страниц всё ещё дожидаются своего настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много
+						версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).
+					</p>
+					<ul>
+						<li><i>Курсивный пункт</i><sup>2</sup><br></li>
+						<li><b>Жирный пункт</b></li>
+					</ul>
+
+					<table border="1" cellspacing="0" cellpadding="1" width = "100%" >
+						<caption><h3 align = "left"><font color="blue">Список товаров в магазине</font></h3></caption>
+						<thead>
+							<tr>
+								<th>Номер</th>
+								<th>Название</th>
+								<th>Цена</th>
+							</tr>
+						</thead>
+						<tbody> 
+							<tr>
+								<td align = "center">1</td>
+								<td>Меч</td>
+								<td align = "center">10</td>
+							</tr>
+							<tr>  
+								<td align = "center">2</td>
+								<td>Булава</td>
+								<td align = "center">5</td>
+							</tr>
+							<tr>  
+								<td align = "center">3</td>
+								<td>Верный конь</td>
+								<td align = "center">15</td>
+							</tr> 
+						</tbody>
+					</table>
+				</td>
+				<td width = "200" valign="top"> 
+					<form method="post" action="/registration">
+						<div>
+							<label for = "login">
+								Login:	
+							</label>	
+							<input name="login" id="login" type="text" size="25" maxlength="30" placeholder="login"/> <br />
+						</div>
+						<br>
+						<div>
+							<label for = "password">
+								Password:
+							</label>
+							<input name="password" id="password" type="password" size="25" maxlength="30" placeholder="******" />
+							
+						</div>
+						<br>
+						<div> <select name="menu" size="1" style = "width:100%" autofocus>
+							<option selected value="first">Admin</option>
+							<option value="second">Tester</option>
+							<option value="third">User</option>
+						</select>
+					</div>
+					<br>
+					<input name="remember" id="remember" type="checkbox"/> <label for = "remember">Запомни меня </label><br />
+					<button type="submit" style="width:100%">Вход</button>
+				</form>
+			</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="3" align="left">&copy; 2014 Основы HTML</td>    
+		</tr>
+	</tfoot>
+</table>
+</body>
+</html>
