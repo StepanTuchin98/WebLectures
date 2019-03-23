@@ -1,0 +1,21 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.container{
+   margin: 5px;
+}
+
+.digit{
+  display: inline-block;
+  border: 1px solid gray;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 15%;
+  font: bold 11px Arial;
+  text-decoration: none;
+  background: linear-gradient(to top, #b5bdc8, #ffffff );
+  color: #333333;
+}
+

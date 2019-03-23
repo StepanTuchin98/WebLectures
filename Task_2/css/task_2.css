@@ -1,0 +1,28 @@
+body {background-color: #323232}
+.separators
+{
+    width: 1000px;
+    position: absolute;
+    margin-top: -510px;
+}
+.separators hr
+{
+    margin-top: 46.5px;
+    border: 2px #323232 solid;
+}
+.eqLines {width: 1000px;}
+.eqLines div
+{
+    display: inline-block;
+    background: linear-gradient(to top, #ffcf57, #ff8d02);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 75px;
+    margin: 5px;
+}
+.one {height: 250px;}
+.two {height: 100px;}
+.three {height: 400px;}
+.four {height: 500px;}
+.five {height: 250px;}
+.six {height: 150px;}
