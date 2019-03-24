@@ -1,0 +1,23 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.container{
+ margin: 5px;
+ border-radius: 0px 15px 15px 0px ; 
+ background: -moz-linear-gradient(top, #f3f5ea 0%, #dde4c6 46%, #b6c583 100%); 
+ background: -webkit-linear-gradient(top, #f3f5ea 0%,#dde4c6 46%,#b6c583 100%); 
+ background: linear-gradient(to bottom, #f3f5ea 0%,#dde4c6 46%,#b6c583 100%);
+ width: 400px;
+}
+
+.link{
+  display: inline-block;
+  width: 50px;
+  padding:5px 15px;
+  border-radius: 0px 15px 15px 0px; 
+  box-shadow: 2px 0 white, 3px 0 black;
+  
+}
+
