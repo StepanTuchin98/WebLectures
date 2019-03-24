@@ -7,7 +7,16 @@
 	margin: 5px;
 }
 
-
+hr{
+	position: relative;
+	top:25px;
+	left: 5px;
+	width: 17%;
+	height: 4px;
+	background-color: #b3b3b3;
+	border: none;
+	z-index: -5;
+}
 
 .ball{
 	height: 25px;
