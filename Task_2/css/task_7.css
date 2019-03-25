@@ -4,7 +4,7 @@
 }
 
 .container{
-   margin: 5px;
+ margin: 5px;
 }
 
 .digit{
@@ -18,4 +18,3 @@
   background: linear-gradient(to top, #b5bdc8, #ffffff );
   color: #333333;
 }
-

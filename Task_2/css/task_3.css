@@ -1,9 +1,9 @@
 #diagrama{
-    background: #ECF5E4;
-    width: 100px; height: 100px;
-    text-align: center;
-    font: 40px/100px serif;
-    border: 25px solid #95CD8B;
-    border-right: 25px solid #D0E6BB;
-    border-radius: 100px;
+	background: #ECF5E4;
+	width: 100px; height: 100px;
+	text-align: center;
+	font: 40px/100px serif;
+	border: 25px solid #95CD8B;
+	border-right: 25px solid #D0E6BB;
+	border-radius: 100px;
 }

@@ -20,10 +20,6 @@
   background: linear-gradient(to top, #b5bdc8, #ffffff );
 }
 
-.step:hover{
-  background: #b3ffb3;
-}
-
 .step:not(:last-child)::before,.step:not(:last-child)::after{
   content:"";
   position:absolute;
