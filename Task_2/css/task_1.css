@@ -7,7 +7,7 @@
 	margin: 5px;
 }
 
-hr{
+.line{
 	position: relative;
 	top:25px;
 	left: 5px;
@@ -31,10 +31,18 @@ hr{
 	vertical-align:middle;
 }
 
-#selectedball{
+.circle_text
+{
+	text-align : center;
+	position : relative;
+	top : 50%;
+	transform : translateY(-50%);
+}
+
+.selected-ball{
 	background-color: #bf00ff;
 }
 
-.disabledball{
+.disabled-ball{
 	background-color: #b3b3b3;
 }

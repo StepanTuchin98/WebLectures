@@ -1,28 +1,17 @@
-body {background-color: #323232}
-.separators
-{
-    width: 1000px;
-    position: absolute;
-    margin-top: -510px;
-}
-.separators hr
-{
-    margin-top: 46.5px;
-    border: 2px #323232 solid;
-}
-.eqLines {width: 1000px;}
-.eqLines div
-{
+body { background: #333; }
+div {
+    background: repeating-linear-gradient(to bottom, transparent, 
+        transparent 20px, #333 20px, #333 23px),
+    linear-gradient(to bottom, #ffd059, #ff8c00);
+    width: 40px;
     display: inline-block;
-    background: linear-gradient(to top, #ffcf57, #ff8d02);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    width: 75px;
-    margin: 5px;
+    margin-right: 5px;
+    border-radius: 5px 5px 0 0;
+    vertical-align: bottom;
 }
-.one {height: 250px;}
-.two {height: 100px;}
-.three {height: 400px;}
-.four {height: 500px;}
-.five {height: 250px;}
-.six {height: 150px;}
+.e1 { height: 113px; }
+.e2 { height: 45px; }
+.e3 { height: 182px; }
+.e4 { height: 227px; }
+.e5 { height: 113px; }
+.e6 { height: 68px; }
