@@ -1,0 +1,47 @@
+body
+{
+	background-color: #333333;
+}
+.triangle
+{
+	display: block;
+	height: 1px;
+	width: 1px;
+	border-left: 65px solid transparent;
+	border-right: 65px solid transparent;
+	border-bottom: 90px solid #c2e1f5;
+}
+.triangle2
+{
+	margin-top: -203px;
+	position: absolute;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	height: 1px;
+	width: 1px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 70px solid #88b7d5;
+}
+.rectangle
+{
+	margin-top: -20px;
+	background-color: #c2e1f5;
+	max-width: 100%;
+}
+.inner
+{
+	border: 10px #c2e1f5 solid;
+	color: white;
+	font-size: 150%;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	background-color: #88b7d5;
+}
+.figure
+{
+	width: 100%;
+}

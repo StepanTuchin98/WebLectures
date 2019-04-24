@@ -1,0 +1,31 @@
+body
+{
+    background-color: black;
+}
+.message
+{
+    border: 1px white solid;
+    padding: 40px 10px 10px 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: linear-gradient(to top, #ffffff, #dddddd);
+    margin: auto;
+    width: 80%;
+}
+.titleText
+{
+    margin-top: -42px;
+    padding: 5px;
+    color: #ffb163;
+    font-size: 150%;
+}
+.title
+{
+    -webkit-filter: drop-shadow(1px 1px 0 white);
+    filter: drop-shadow(1px 1px 0 white);
+    padding: 5px;
+    border-right: 20px solid transparent;
+    border-top:  30px solid #000000;
+    margin: -41px -11px -11px -11px;
+    position: absolute;
+}

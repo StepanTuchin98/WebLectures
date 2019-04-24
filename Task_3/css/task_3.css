@@ -1,0 +1,42 @@
+ul
+{
+    list-style-type: none;
+    padding: 0;
+}
+.text
+{padding: 5px;}
+.sub
+{
+    visibility: hidden;
+    position: fixed;
+    background: white;
+    padding: 5px;
+    color: #0075b2;
+}
+.first
+{
+    text-decoration: #0075b2 underline;
+    color: #0075b2;
+    position: static;
+    display: inline-block;
+}
+.first:hover
+{
+    text-decoration: none;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    color: black;
+    -webkit-filter: drop-shadow(0 0 3px black);
+    filter: drop-shadow(0 0 3px black);
+    background: white;
+
+}
+.first li:hover
+{
+    background-color: #0690cf;
+    color: white;
+}
+.sublink .first:hover .sub, .sub .second:hover
+{
+   visibility: visible;
+}

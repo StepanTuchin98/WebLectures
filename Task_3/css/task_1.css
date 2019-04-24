@@ -1,0 +1,16 @@
+.menulist
+{
+    background-color: khaki;
+    width: 200px;
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow:  5px 5px 0 brown;
+}
+.menulist li
+{
+    font-family: "Segoe UI";
+    color: brown;
+    list-style-type: none;
+    align-self: left;
+}
